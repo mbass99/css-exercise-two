@@ -1,6 +1,9 @@
 body {
-  background-color: #ff0000;
+  background-color: #7ae60e;
+    /*(7) changed background color to green*/
   color: #0000FF;
+    /* (2)change to a master font size*/
+    font-size: 16px;
 }
 
 nav {
@@ -8,6 +11,7 @@ nav {
   float: left;
   position: fixed;
   width: 100%;
+    /*(5) See HTML page for images*/
 }
 
 .logo {
@@ -30,23 +34,66 @@ nav {
 
 .right {
   float: right;
+  list-style-type: none; 
 }
 
-ul {
-  list-style-type: none;
-  float: right;
-}
+/*(6) changed state of links*/
+  a:visited { color:white; } 
+  a:hover { color:orangered; }
+  a:active { color:yellow; }     
+
 
 li {
   float: right;
   padding: 30px;
 }
 
-article {
-  padding-top: 100px;
-}
-
+/*(4) added line height*/
 .container {
+  padding-top: 100px;
   margin: 0 auto;
   width: 50%;
+  line-height: 1.5;
 }
+
+/*(3) headline for importance*/
+h1{
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+/*(3)changed for importance*/
+figcaption {
+    font-size: .90em;
+    padding-bottom: 10px;
+}
+
+/*(3)changed for importance*/
+h1 {
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-top 20px;
+}
+
+/*new addition*/
+h3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*(3) name size*/
+.author{
+    font-weight: 200;
+    font-size: 1.5em;
+    font-style: italic;
+    padding-bottom: 10px;
+}
+/*(3/4)changed for importance*/
+.story-text {
+    text-align: left;
+    line-height: 1.5em;
+    font-size: 1em;
+}
+/*(3)added for spacing*/
+p {
+    margin-top: 8px;
