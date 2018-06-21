@@ -1,7 +1,7 @@
 body {
-  background-color: #7ae60e;
-    /*(7) changed background color to green*/
-  color: #0000FF;
+  background-color: whites;
+    /*(7) changed background and font colors*/
+  color: #000000;
     /* (2)change to a master font size*/
     font-size: 16px;
 }
@@ -38,10 +38,19 @@ nav {
 }
 
 /*(6) changed state of links*/
-  a:visited { color:white; } 
-  a:hover { color:orangered; }
-  a:active { color:yellow; }     
 
+.right{
+    text-decoration-color: black;
+}
+
+a:visited { 
+      color: darkblue; } 
+a:hover { 
+      color:orange; }
+a {
+    text-decoration: none;
+}
+      
 
 li {
   float: right;
